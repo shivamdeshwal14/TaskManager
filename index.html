@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task Manager</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    <!-- Main Page Header -->
+  
+    <header id="page-header" class="bg-success text-white   p-4 mb-3  " >
+        <div class="container text-center ">
+            <h1 class="text-center">TASK MANAGER</h1>
+        </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- main content -->
+    
+        <div class="container card card-body mycard" style="margin-top: 100px; background-color: rgb(243, 243, 197);" >
+            <h2>ADD TASK</h2>          
+                <!-- FORM -->
+                <form  id="addform" class="form-inline mb-3 ">
+                    <input type="text" class="form-margin form-control mr-2" id="add-task" placeholder="Enter Task ">
+                    <input type="time"id="time" class="form-margin form-control mr-2" id="item">
+                     <input type="date" id="date"class="form-margin form-control mr-2" id="item"placeholder="Enter time" >
+                    <input type="submit" class="btn btn-success form-margin" value="Add Task"  >
+                    <input type="text" class="form-margin form-control mr-2" id="filter"placeholder="Search Your Task Here">  
+                </form>
+            <!-- form end -->
+            <h2 class="tittle">Pending Tasks</h2>
+            <!-- list items -->
+            <ul class="list-group" id="tasks">
+                <li class="list-group-item">
+                    Task-1
+                
+                <button class="btn btn-danger btn-sm float-right delete">Remove</button>
+                <label class="btn-sm float-right mylabel margin">Date</label> 
+                <label class="btn-sm float-right mylabel margin">Time</label>   
+                </li>
+            </ul>
+            <!--list ended -->
+        </div>
+    
+    
+    <script src="main.js"></script>
+    <!-- footer -->
+    <div class="container">
+        <footer>
+            <div class="container text-center myfooter " >
+            
+                <h6>&copy; Copyright @ Task Manager 2023</h6>
+                <h4>Developed By SHIVAM DESHWAL</h4>
+                <h6>shivamdeshwal1414@gmail.com</h6>
+                
+        
+            </div>
+        </footer>
+    </div>
+   
+   
+</body>
+
+</html>

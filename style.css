@@ -1,0 +1,19 @@
+
+.mylabel{
+    margin-right:6px;
+}
+body{
+    background-color:rgb(232, 124, 191);
+}
+.margin{
+    
+    border: 2px solid green;
+    
+}
+.form-margin{
+    margin: 10px;
+}
+.myfooter{
+    margin-top: 100px; 
+    
+}
